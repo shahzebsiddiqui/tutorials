@@ -1,0 +1,9 @@
+testtype: singlesource
+scheduler: local
+description: Hello World Buildtest Example
+maintainer:
+- vsoch
+
+program:
+  source: hello.sh
+
