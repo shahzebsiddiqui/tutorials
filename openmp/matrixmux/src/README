@@ -1,0 +1,10 @@
+Compile for GCC
+---------------
+
+gcc -o gcc_openmp_matrixmux.o openmp_matrixmux.c -fopenmp -O3
+
+Compile for Intel
+-----------------
+
+icc -o icc_openmp_matrixmux.o openmp_matrixmux.c -fopenmp -O3 -align -no-prec-div -xSSE3
+

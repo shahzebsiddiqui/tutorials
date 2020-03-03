@@ -1,0 +1,4 @@
+To compile this you can do the following
+
+icc -mkl mkl_dgemm.c
+icc -mkl mkl_sgemm.c
